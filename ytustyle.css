@@ -1,0 +1,533 @@
+.container{
+    max-width: 2120px;
+    height: auto;
+    background-color: red;
+  
+
+}
+.title{
+    width: 100%;
+    padding: 5px;
+    height: 30px;
+    left: 0;
+    position: absolute;
+    background-color: slategray;
+}
+.link{
+    float: right;
+    padding-top: 5px;
+    padding-right: 280px;
+    
+   
+
+}
+.vr{
+    border-right: 1px solid black;
+    text-decoration: none;
+    height: 5px;
+    color: white;
+    padding-left: 5px;
+ 
+  }
+
+
+
+a{
+    
+}
+.header{
+  left: 0;
+    width: 95%;
+    height: 120px;
+    position: absolute;
+
+}
+
+.logo{
+    position: absolute;
+    top:45px;
+    left: 0;
+    float: left;
+    margin-left: 220px;
+    right:0;
+    
+
+    
+}
+.school{
+    position: absolute;
+    float: left;
+    margin-left: 300px;
+
+}
+.school h1{
+    margin-left:40px;
+    font-size: 40px;
+    color: #FFA62F;
+    padding-top: 20px;
+    text-align: center;
+}   
+
+.nav{
+    width: 86%;
+    padding-left: 230px;
+    height: 40px;
+    padding-top: 15px;
+    padding-bottom: 4px;
+    left: 0;
+    right: 0;
+    color: white;
+    margin-top: 170px;
+    position: absolute;
+    background-color: #303332;
+    
+}
+.nav td{
+    font-size: 13px;
+    font-weight: bold;
+    padding-right: 15px;
+
+}
+.body{
+    left: 0;
+    right: 0;
+    position: absolute;
+    width: 99.99%;
+    height: auto;
+
+}
+.picture{
+    position: absolute;
+    width: 100%;
+    margin-top: 228px;
+    height: auto;
+    left: 0;
+    right: 0;
+    opacity: 0.5;
+
+}
+.slide{
+    padding: 30px;
+    margin-top: 300px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-bottom: ;
+    height: 300px;
+    background-color: rgb(13, 13, 14);
+}
+.slide img{
+    margin-top:-170px;
+    margin-left: 20px;
+}
+.text{
+    float: right;
+    padding: 30px;
+    margin-right: 200px; 
+
+}
+.text button{
+  margin-right: 250px;
+}
+.text h1{
+  float: right;
+  text-align: left;
+  margin-top: -250px;
+  margin-left: 450px;
+}
+.text p{
+  float: right;
+  text-align: justify;
+  margin-top: -100px;
+  margin-left: 450px;
+
+}
+.cards{
+  left: 0;
+  width: 83%;
+  height: 120px;
+  position: absolute;
+  float: left;
+  margin-left: 220px;
+  margin-right: -200px;
+  margin-top: 800px;
+  display: grid;
+ 
+  grid-template-columns: repeat(3, 0.28fr);
+   
+  grid-auto-rows: auto;
+   
+  grid-gap: 2.5rem;
+   
+  }
+   
+  .card {
+   
+  border: 2px solid #e7e7e7;
+   
+  border-radius: 4px;
+  
+  padding: .5rem;
+   
+  }  
+  button{
+    color: white;
+    background-color: orange;
+    float: right;
+    border-radius: 3px;
+    width: 100px;
+    height: 30px;
+    border-color: orange;
+  } 
+  .card h1{
+    text-align: center;
+    padding-top: 0px;
+  }
+  
+  .card p{
+    padding-right: 10px;
+    padding-left: 30px;
+    line-height: 1.8em;
+    text-align: justify;
+  }
+  .rector img{
+    position: absolute;
+    float: left;
+    margin-left: 210px;
+    margin-right: -200px;
+    margin-top: 1150px;
+
+  }
+  .event{
+    position: absolute;
+    float: left;
+    margin-left: 210px;
+    margin-right: -200px;
+    margin-top: 1450px;
+
+
+  }
+  .event h1{
+    font-size: 36px;
+    color: orange;
+    font-weight: bold;
+    margin-left: 450px;
+
+  }
+  .event img{
+    padding-right: 20px;
+  }
+  
+  .msg{
+    position: absolute;
+    float: left;
+    margin-left: 590px;
+    margin-right: 20px;
+    margin-top: 1120px;
+    
+
+  }
+  .wel{
+    padding: 20px;
+    position: absolute;
+    float: left;
+    margin-left: 180px;
+    margin-right: 200px;
+    margin-top: 1800px;
+    
+
+  }
+  .wel h1{
+    font-size: 36px;
+    color: orange;
+    font-weight: bold;
+    margin-left: 440px;
+  }
+  .wel p{
+    padding-right: 0px;
+    padding-left: 20px;
+    line-height: 1.8em;
+    text-align: justify;
+    
+
+  }
+  .msg_h1{
+    margin-left: 10px;
+    font-size: 36px;
+    color: orange;
+    font-weight: bold;
+
+  }
+  .msg p{
+    padding-right: 200px;
+    padding-left: 20px;
+    line-height: 1.8em;
+    text-align: justify;
+    
+
+  }
+  .opcard{
+    position: absolute;
+    width: 100%;
+    margin-top: 2100px;
+    height: auto;
+    left: 0;
+    right: 0;
+    opacity: 1;
+  
+
+
+
+  }
+  .imgcard{
+    position: absolute;
+    width: 100%;
+    margin-top: 2500px;
+    height: auto;
+    left: 0;
+    right: 0;
+    }
+   
+    
+  .opcard_bg{  
+    position: absolute;
+    width: 98%;
+    height: 500px;
+    margin-top: 2100px;
+    left: 0;
+    right: 0;
+
+  
+  }
+  .cards1{
+    color: white;
+    display: grid;
+    position: absolute;
+    grid-template-columns: 350px 350px 350px;
+    float: left;
+    margin-left: 210px;
+    margin-right: -200px;
+    grid-gap: 2rem;
+    text-align: center;
+     
+    }
+    .cards1 h1{
+      color: orange;
+    }
+     
+    .card1{
+    margin-top:-240px;
+    grid-row: 20px 20px 20px;
+    border: 1px solid #e7e7e7;
+    margin-bottom: 60px;
+    padding: 20px; 
+    border-radius: 4px;
+   
+     
+    }
+    .images{
+      padding: 20px;
+      position: absolute;
+      float: left;
+      
+      margin-left: 180px;
+      
+      margin-top: 2350px;
+      
+  
+    }
+    .images h1{
+      font-size: 36px;
+      color: orange;
+      font-weight: bold;
+      margin-left: 460px;
+    }
+    .imgcard{
+      position: absolute;
+      float: left;
+      
+      margin-left: 200px;
+      
+      margin-top: 2500px;
+      display: grid;
+  
+      grid-template-columns: repeat(3,400px);
+        
+      grid-auto-rows: auto;
+        
+      grid-gap: 1rem;
+  
+
+    }
+    .cardimg{
+     
+      border: 2px solid #e7e7e7;
+  
+      border-radius: 4px;
+        
+      padding: 0 0 20 0;
+            
+      }  
+      .cardimg p{
+        padding-left: 20px;
+        color: orange;
+        font-weight: bold;
+        
+      }
+      .imgcard1{
+        position: absolute;
+        float: left;
+        
+        margin-left: 200px;
+        
+        margin-top: 2900px;
+        display: grid;
+    
+        grid-template-columns: repeat(3,400px);
+          
+        grid-auto-rows: auto;
+          
+        grid-gap: 1rem;
+    
+  
+      }
+      .cardimg1{
+       
+        border: 2px solid #e7e7e7;
+    
+        border-radius: 4px;
+          
+        padding: 0 0 20 0;
+              
+        }  
+        .cardimg1 p{
+          padding-left: 20px;
+          color: orange;
+          font-weight: bold;
+          
+        }
+    .footer{
+      margin-top: 3380px;
+      float: left;
+      line-height: 1.8em;
+      left: 0;
+      padding-left: 200px;
+      text-align: justify;
+      color: white;
+      padding-top: 20px;
+      padding-right: 20px;
+      padding-bottom: 20px;
+      width: 100%;
+      position: absolute;
+      background-color: #303332;
+    }
+    .left{
+      float: left;
+      max-width: 30% ;
+    }
+    .center{
+      float: left;
+      margin-left: 30px;
+      max-width: 30% ;
+    }
+    .right{
+      float: left;
+      padding-left: 10px;
+      margin-left: 50px;
+      max-width: 30% ;
+    }
+/* Slideshow container */
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+  
+    margin-top: 200px;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+ 
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: moveRight;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+ 
