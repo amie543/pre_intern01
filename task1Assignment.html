@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function color(){
+            var color =document.getElementById('color-change').value;
+           
+            document.querySelector('#hello').style.color = color;
+        }
+         
+    </script>
+</head>
+<body>
+    <h1 id="hello">Hello!Welcome to Our PreIntern Group</h1>
+    <select name="" id="color-change" onchange="color()">
+        <option value="#ff0000">Red</option>
+        <option value="#000000">Black</option>
+        <option value="#00ff00">Green</option>
+        <option value="#0000ff">BLue</option>
+    </select>
+    
+</body>
+</html>
